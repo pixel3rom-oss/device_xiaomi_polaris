@@ -55,3 +55,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:system/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/nfc/libnfc-nxp.conf
+
+# Power
+PRODUCT_PACKAGES += \
+    libperfmgr
